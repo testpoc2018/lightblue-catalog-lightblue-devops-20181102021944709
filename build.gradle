@@ -28,7 +28,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-starter-datajpa")
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
-	compile("mysql:mysql-connector-java:5.1.28")r
+	compile("mysql:mysql-connector-java:5.1.28")
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-startertest')
 }

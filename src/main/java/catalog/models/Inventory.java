@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 /**
  * 
@@ -23,7 +23,7 @@ public class Inventory {
 	// Use generated ID
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
 	// Item name
